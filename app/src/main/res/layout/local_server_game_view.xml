@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:paddingBottom="20dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/room_title"
+        />
+    <TextView
+        android:id="@+id/create_home"
+        android:text="创建房间"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#282828"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/room_back"
+        >
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/server_wraper">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#00000000"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

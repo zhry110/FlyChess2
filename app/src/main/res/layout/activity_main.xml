@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:keepScreenOn="true"
+    android:orientation="horizontal"
+    tools:context="com.zhry.like1.flychess.MainActivity">
+
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common4"
+        android:layout_alignTop="@+id/common3"
+        android:layout_toEndOf="@+id/common3" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common5"
+        android:layout_below="@+id/common3"
+        android:layout_toEndOf="@+id/common3" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common6"
+        android:layout_below="@+id/common5"
+        android:layout_alignStart="@+id/common5" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common7"
+        android:layout_below="@+id/common6"
+        android:layout_alignStart="@+id/common6" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+         
+        android:id="@+id/common8"
+        android:layout_below="@+id/common7"
+        android:layout_toEndOf="@+id/common7" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common9"
+        android:layout_alignTop="@+id/common8"
+        android:layout_toEndOf="@+id/common8" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common10"
+        android:layout_alignTop="@+id/common9"
+        android:layout_toEndOf="@+id/common9" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common11"
+        android:layout_alignTop="@+id/common10"
+        android:layout_toEndOf="@+id/common10" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common12"
+        android:layout_below="@+id/common11"
+        android:layout_toEndOf="@+id/common10" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common13"
+        android:layout_below="@+id/common12"
+        android:layout_alignStart="@+id/common12" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common14"
+        android:layout_below="@+id/common13"
+        android:layout_alignStart="@+id/common13" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common15"
+        android:layout_below="@+id/common14"
+        android:layout_alignStart="@+id/common14" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common16"
+        android:layout_below="@+id/common15"
+        android:layout_alignStart="@+id/common15" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common17"
+        android:layout_below="@+id/common16"
+        android:layout_alignStart="@+id/common16" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common18"
+        android:layout_below="@+id/common16"
+        android:layout_toStartOf="@+id/common17" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common19"
+        android:layout_alignTop="@+id/common18"
+        android:layout_toStartOf="@+id/common18" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common20"
+        android:layout_alignTop="@+id/common19"
+        android:layout_toStartOf="@+id/common19" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common21"
+        android:layout_below="@+id/common20"
+        android:layout_toStartOf="@+id/common20" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common22"
+        android:layout_below="@+id/common21"
+        android:layout_alignStart="@+id/common21" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common23"
+        android:layout_below="@+id/common22"
+        android:layout_alignStart="@+id/common22" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common24"
+        android:layout_below="@+id/common23"
+        android:layout_alignStart="@+id/common23" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common25"
+        android:layout_below="@+id/common23"
+        android:layout_toStartOf="@+id/common24" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common26"
+        android:layout_alignTop="@+id/common25"
+        android:layout_toStartOf="@+id/common25" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common27"
+        android:layout_alignTop="@+id/common26"
+        android:layout_toStartOf="@+id/common26" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common28"
+        android:layout_alignTop="@+id/common27"
+        android:layout_toStartOf="@+id/common27" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common29"
+        android:layout_alignTop="@+id/common28"
+        android:layout_toStartOf="@+id/common28" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common30"
+        android:layout_alignTop="@+id/common29"
+        android:layout_toStartOf="@+id/common29" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common31"
+        android:layout_above="@+id/common30"
+        android:layout_alignStart="@+id/common30" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common32"
+        android:layout_above="@+id/common31"
+        android:layout_alignStart="@+id/common31" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common33"
+        android:layout_above="@+id/common32"
+        android:layout_alignStart="@+id/common32" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common34"
+        android:layout_above="@+id/common33"
+        android:layout_toStartOf="@+id/common33" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common35"
+        android:layout_alignTop="@+id/common34"
+        android:layout_toStartOf="@+id/common34" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common36"
+        android:layout_alignTop="@+id/common35"
+        android:layout_toStartOf="@+id/common35" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common37"
+        android:layout_alignTop="@+id/common36"
+        android:layout_toStartOf="@+id/common36" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common38"
+        android:layout_above="@+id/common37"
+        android:layout_alignStart="@+id/common37" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common39"
+        android:layout_above="@+id/common38"
+        android:layout_alignStart="@+id/common38" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/common40"
+        android:layout_above="@+id/common39"
+        android:layout_alignStart="@+id/common39" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common41"
+        android:layout_above="@+id/common40"
+        android:layout_alignStart="@+id/common40" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/common42"
+        android:layout_above="@+id/common41"
+        android:layout_alignStart="@+id/common41" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/blackplane"
+        android:id="@+id/common43"
+        android:layout_above="@+id/common42"
+        android:layout_alignStart="@+id/common42" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common44"
+        android:layout_alignTop="@+id/common43"
+        android:layout_toEndOf="@+id/common43" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common45"
+        android:layout_alignTop="@+id/common44"
+        android:layout_toEndOf="@+id/common44" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common46"
+        android:layout_alignTop="@+id/common45"
+        android:layout_toEndOf="@+id/common45" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common47"
+        android:layout_above="@+id/common46"
+        android:layout_alignStart="@+id/common48" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common48"
+        android:layout_above="@+id/common47"
+        android:layout_alignStart="@+id/common49" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common49"
+        android:layout_above="@+id/common48"
+        android:layout_alignStart="@+id/common50" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common50"
+        android:layout_above="@+id/common49"
+        android:layout_toStartOf="@+id/common51" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/common51"
+        android:layout_alignTop="@+id/common52"
+        android:layout_toStartOf="@+id/common52" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/common52"
+        android:layout_alignTop="@+id/common1"
+        android:layout_toStartOf="@+id/common1" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/common1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"/>
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/common2"
+        android:layout_alignTop="@+id/common1"
+        android:layout_toEndOf="@+id/common1" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/common3"
+        android:layout_alignTop="@+id/common2"
+        android:layout_toEndOf="@+id/common2" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/pri1"
+        android:src="@drawable/greenpos"
+        android:layout_below="@+id/common41"
+        android:layout_toEndOf="@+id/common39" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/greenpos"
+        android:id="@+id/pri2"
+        android:layout_alignTop="@+id/pri1"
+        android:layout_toEndOf="@+id/pri1" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/greenpos"
+        android:id="@+id/pri3"
+        android:layout_alignTop="@+id/pri2"
+        android:layout_toEndOf="@+id/pri2" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/greenpos"
+        android:id="@+id/pri4"
+        android:layout_alignTop="@+id/pri3"
+        android:layout_toEndOf="@+id/pri3" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/greenpos"
+        android:id="@+id/pri5"
+        android:layout_alignTop="@+id/pri4"
+        android:layout_toEndOf="@+id/pri4" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/rangepos"
+        android:id="@+id/pri6"
+        android:layout_above="@+id/common26"
+        android:layout_toEndOf="@+id/common28" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/rangepos"
+        android:id="@+id/pri7"
+        android:layout_above="@+id/pri6"
+        android:layout_alignStart="@+id/pri6" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/rangepos"
+        android:id="@+id/pri8"
+        android:layout_above="@+id/pri7"
+        android:layout_alignStart="@+id/pri7" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/rangepos"
+        android:id="@+id/pri9"
+        android:layout_above="@+id/pri8"
+        android:layout_alignStart="@+id/pri8" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/pri10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/pri9"
+        android:layout_alignStart="@+id/pri9"
+        android:src="@drawable/rangepos" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/redpos"
+        android:id="@+id/pri11"
+        android:layout_below="@+id/common13"
+        android:layout_toStartOf="@+id/common13" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/redpos"
+        android:id="@+id/pri12"
+        android:layout_alignTop="@+id/pri11"
+        android:layout_toStartOf="@+id/pri11" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/redpos"
+        android:id="@+id/pri13"
+        android:layout_alignTop="@+id/pri12"
+        android:layout_toStartOf="@+id/pri12" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/redpos"
+        android:id="@+id/pri14"
+        android:layout_alignTop="@+id/pri13"
+        android:layout_toStartOf="@+id/pri13" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/redpos"
+        android:id="@+id/pri15"
+        android:layout_alignTop="@+id/pri14"
+        android:layout_toStartOf="@+id/pri14" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/blackpos"
+        android:id="@+id/pri16"
+        android:layout_below="@+id/common52"
+        android:layout_toEndOf="@+id/common52" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/blackpos"
+        android:id="@+id/pri17"
+        android:layout_below="@+id/pri16"
+        android:layout_alignStart="@+id/pri16" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/blackpos"
+        android:id="@+id/pri18"
+        android:layout_below="@+id/pri17"
+        android:layout_alignStart="@+id/pri17" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        
+        android:id="@+id/pri19"
+        android:layout_below="@+id/pri18"
+        android:layout_alignStart="@+id/pri18" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/pri20"
+        android:layout_below="@+id/pri19"
+        android:layout_alignStart="@+id/pri19" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/crown"
+        android:layout_above="@+id/pri10"
+        android:layout_below="@+id/pri20"
+        android:layout_toStartOf="@+id/pri15"
+        android:layout_toEndOf="@+id/pri5"
+        />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/blackstop"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/common4"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/common4"
+        android:background="@drawable/blackpos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/blackhome0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/blackstop"
+        android:layout_toEndOf="@+id/blackstop"
+        android:background="@drawable/blackpos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/blackhome1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/blackhome0"
+        android:layout_toEndOf="@+id/blackhome0"
+        android:background="@drawable/blackpos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/blackhome2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/blackhome0"
+        android:layout_below="@+id/blackhome0"
+        android:background="@drawable/blackpos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/blackhome3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/blackhome0"
+        android:layout_toEndOf="@+id/blackhome2"
+        android:background="@drawable/blackpos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redpos"
+        android:id="@+id/redstop"
+        android:layout_below="@+id/common17"
+        android:layout_toEndOf="@+id/common18"
+        android:layout_marginTop="8dp" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redpos"
+        android:id="@+id/redhome0"
+        android:layout_alignTop="@+id/redhome1"
+        android:layout_toStartOf="@+id/redhome1" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redpos"
+        android:id="@+id/redhome1"
+        android:layout_below="@+id/redstop"
+        android:layout_toEndOf="@+id/common19" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redpos"
+        android:id="@+id/redhome2"
+        android:layout_below="@+id/redhome0"
+        android:layout_alignStart="@+id/redhome0" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redpos"
+        android:id="@+id/redhome3"
+        android:layout_below="@+id/redhome0"
+        android:layout_toEndOf="@+id/redhome2" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/rangestop"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/common31"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/common30"
+        android:background="@drawable/rangepos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/rangehome0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/rangestop"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/common34"
+        android:background="@drawable/rangepos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/rangehome1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/rangehome0"
+        android:layout_toStartOf="@+id/rangehome0"
+        android:background="@drawable/rangepos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/rangehome2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/rangehome0"
+        android:layout_toEndOf="@+id/rangehome1"
+        android:background="@drawable/rangepos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:id="@+id/rangehome3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/rangehome1"
+        android:layout_alignStart="@+id/rangehome1"
+        android:background="@drawable/rangepos" />
+
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/greenpos"
+        android:id="@+id/greenstop"
+        android:layout_above="@+id/common43"
+        android:layout_alignStart="@+id/common43"
+        android:layout_marginBottom="8dp" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/greenpos"
+        android:id="@+id/greenhome0"
+        android:layout_above="@+id/greenstop"
+        android:layout_toEndOf="@+id/greenstop" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/greenpos"
+        android:id="@+id/greenhome1"
+        android:layout_alignTop="@+id/greenhome0"
+        android:layout_toEndOf="@+id/greenhome0" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/greenpos"
+        android:id="@+id/greenhome2"
+        android:layout_above="@+id/greenhome0"
+        android:layout_toEndOf="@+id/greenhome0" />
+    <com.zhry.like1.flychess.view.PathNodeView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/greenpos"
+        android:id="@+id/greenhome3"
+        android:layout_alignTop="@+id/greenhome2"
+        android:layout_alignStart="@+id/greenhome0"
+        android:layout_above="@+id/greenhome0"
+        android:layout_toStartOf="@+id/greenhome1" />
+
+    <ImageView
+        android:id="@+id/dice"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/t5"
+
+        android:layout_below="@+id/common27"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+         />
+    <ImageView
+        android:id="@+id/pointer_0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/flag"
+        android:layout_below="@+id/blackstop"
+        android:layout_toStartOf="@+id/blackhome0" />
+    <ImageView
+        android:id="@+id/pointer_1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/flag"
+        android:layout_below="@+id/redstop"
+        android:layout_toEndOf="@+id/redhome1" />
+    <ImageView
+        android:id="@+id/pointer_2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/flag"
+        android:layout_below="@+id/rangehome2"
+        android:layout_toEndOf="@+id/rangehome2" />
+    <ImageView
+        android:id="@+id/pointer_3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/flag"
+        android:layout_above="@+id/greenstop"
+        android:layout_alignStart="@+id/greenstop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#555"
+        android:id="@+id/user0"
+        android:layout_alignTop="@+id/blackstop"
+        android:layout_alignEnd="@+id/blackhome1"
+        android:layout_toEndOf="@+id/blackstop"
+        android:layout_above="@+id/greenhome2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#555"
+        android:id="@+id/user1"
+        android:layout_below="@+id/redhome2"
+        android:layout_alignStart="@+id/redhome2"
+        android:layout_alignEnd="@+id/redhome3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#555"
+        android:id="@+id/user2"
+        android:layout_alignBottom="@+id/rangestop"
+        android:layout_alignStart="@+id/rangehome1"
+        android:layout_toStartOf="@+id/rangestop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#555"
+        android:id="@+id/user3"
+        android:layout_above="@+id/greenhome2"
+        android:layout_alignStart="@+id/greenhome3"
+        android:layout_alignEnd="@+id/greenhome2" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bot"
+        android:id="@+id/bot0"
+        android:visibility="invisible"
+        android:layout_below="@+id/blackhome0"
+        android:layout_alignStart="@+id/pointer_0" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bot"
+        android:id="@+id/bot1"
+        android:visibility="invisible"
+        android:layout_below="@+id/pointer_1"
+        android:layout_toEndOf="@+id/redhome3" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bot"
+        android:id="@+id/bot2"
+        android:visibility="invisible"
+        android:layout_above="@+id/pointer_2"
+        android:layout_toEndOf="@+id/rangehome2" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bot"
+        android:id="@+id/bot3"
+
+        android:visibility="invisible"
+        android:layout_below="@+id/user3"
+        android:layout_alignStart="@+id/pointer_3" />
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/tip"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <include layout="@layout/tip"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/depute"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/prepareground"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="托管"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/roomID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="房间ID："
+        android:textColor="#555"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        />
+    <TextView
+        android:id="@+id/deputeOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="观战模式"
+        android:textSize="20sp"
+        android:textColor="#555"
+        android:paddingBottom="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

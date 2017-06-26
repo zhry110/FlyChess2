@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#28081a"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3f3a3a"
+        android:text="控制台"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/termin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textCursorDrawable="@null"
+                android:textStyle="bold"
+                android:textColor="#555"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:imeOptions="flagNoExtractUi"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

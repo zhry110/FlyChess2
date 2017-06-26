@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏记录"
+        android:gravity="center"
+        android:textColor="#555"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:id="@+id/replay_wraper"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

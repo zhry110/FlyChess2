@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#00000000"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/tipback"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingTop="30dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提供一个ID来开始游戏"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:hint="输入一个标识你的的ID"
+            android:id="@+id/editText"
+            android:padding="10dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textCursorDrawable="@null"
+            android:background="#00000000"
+            android:imeOptions="flagNoExtractUi"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ok"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:id="@+id/imageView4"
+            android:layout_alignParentStart="true" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

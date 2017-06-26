@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:paddingBottom="1dp"
+    android:background="@drawable/room_back">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/trasScreenImageView06">
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/addbot"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="添加机器人"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#282828"
+                android:layout_toEndOf="@+id/trasScreenImageView06" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
